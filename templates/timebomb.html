@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+<head>
+        <title>TimeBomb</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <link rel="stylesheet" href="../static/stylesheets/timebomb_style.css" />
+        <meta name="state" id='state' content={{timebomb_state}}>
+</head>
+
+
+<body onload="buttonCheck()">
+    <table>
+           <tr>
+                <td>
+                  <style='width: 10%;'><img class = 'timebombIcon' src='../static/images/timebomb.png'>
+                </td>
+                <td>
+                  <h1><span class="lime">Time Bomb</span><h1>
+                </td>
+           </tr>
+    </table>
+    <h3>Current time is {{ current_time }}</h3>
+    <h4>Currently the Time Bomb is <span class="lime">{{timebomb_state_text}}</span>  to go off</h4>
+    <h4>Detonation will occur at <span class="lime">{{bombtime}}</span> </h4>
+    <form method="post">
+        <button type="submit" id="timebomb_button" style="background-color:gray" name="submit" value="StartTimebomb">Set Time Bomb</button>
+
+    <table>
+          <tr>
+             <td>
+                 <input type="radio" name="TgtTimeRadio" id="radio1" value="1hour" class="css-checkbox" checked="checked"/>
+                 <label for="radio1" class="css-label radGroup1">1 Hour Detonation</label>
+             </td>
+             <td>
+                 <input type="radio" name="TgtTimeRadio" id="radio2" value="2hour" class="css-checkbox" />
+                 <label for="radio2" class="css-label radGroup1">2 Hour Detonation</label>
+             </td>
+             <td>
+                 <input type="radio" name="TgtTimeRadio" id="radio3" value="4hour" class="css-checkbox" />
+                 <label for="radio3" class="css-label radGroup1">4 Hour Detonation</label>
+             </td>
+             <td>
+                 <input type="radio" name="TgtTimeRadio" id="radio4" value="8hour" class="css-checkbox" />
+                 <label for="radio4" class="css-label radGroup1">8 Hour Detonation</label>
+             </td>
+             <td>
+                 <input type="radio" name="TgtTimeRadio" id="radio5" value="12hour" class="css-checkbox" />
+                 <label for="radio5" class="css-label radGroup1">12 Hour Detonation</label>
+             </td>
+             <td>
+                 <input type="radio" name="TgtTimeRadio" id="radio6" value="24hour" class="css-checkbox" />
+                 <label for="radio6" class="css-label radGroup1">24 Hour Detonation</label>
+             </td>
+             <td>
+                 <input type="radio" name="TgtTimeRadio" id="radio7" value="randomhour" class="css-checkbox" />
+                 <label for="radio7" class="css-label radGroup1">Random 1 to 24 Hour Detonation</label>
+             </td>
+          </tr>
+    </table>
+     
+    </form><br>
+
+
+    <br>
+    <br>
+    <form method="post">
+        <button type="submit" id="Return" style="background-color:gray" name="submit" value="Return">Return</button>
+    </form>
+
+<script>
+   function buttonCheck() {
+     var currentState = document.getElementById('state').content;
+
+     if (currentState == "True") {
+       // alert(currentState);
+       document.getElementById("timebomb_button").disabled = true;
+       }
+     }
+</script>
+</body>
+</html>

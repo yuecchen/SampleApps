@@ -1,0 +1,129 @@
+<!doctype html>
+<html>
+<style>
+i { 
+    font-style: italic;
+}
+</style>
+<title>PAT API Methods</title>
+<head>
+        <title>PAT API Method Test</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <link rel="stylesheet" href="../static/stylesheets/style.css" />
+</head>
+
+
+<body>
+    <h1>ReST API Methods</h1>
+    <br>
+    <p>The current time is <span class='blue'>{{ current_time }}</span></p>
+    <hr>
+    <br>
+    <h3>GET Methods<h3>
+    <font size="2">
+    The following API's will pull randomly generated Photo Album data
+    <ul>
+       <li>Mini: Photo album data pull [~22K in size] <span class="blue"><a href="{{ getmini }}">{{ getmini }}</a></span> </li> 
+       <li>Small: Photo album data pull [~220K in size] <span class="blue"><a href="{{ getsmall }}">{{ getsmall }}</a></span> </li> 
+       <li>Medium: Photo album data pull [~1.1M in size] <span class="blue"><a href="{{ getmedium }}">{{ getmedium }}</a></span> </li> 
+       <li>Large: Photo album data pull [~2.2M in size] <span class="blue"><a href="{{ getlarge }}">{{ getlarge }}</a></span> </li> 
+       <li>XL: Photo album data pull [~22M in size] <span class="blue"><a href="{{ getxl }}">{{ getxl }}</a></span> </li> 
+       <li>XXL: Photo album data pull [~110M in size] <span class="blue"><a href="{{ getxxl }}">{{ getxxl }}</a></span> </li> 
+       <li>XXXL: Photo album data pull [~220M in size] <span class="blue"><a href="{{ getxxxl }}">{{ getxxxl }}</a></span> </li> 
+    </ul>
+    </font> 
+    <hr>
+    <h3>PUT Method<h3>
+    <font size="2">
+    The following API is a simulated PUT. No actual data will be updated.  See BlueMix log for evidence this took place
+    Note that the PUT *must* be accompanied with the JSON header and data
+    <ul>
+       <li>PUT Test <span class="blue"><a href="{{ putsim }}">{{ putsim }}</a></span> </li> 
+    </ul>
+   Example Curl Command: <br>
+    </font>
+    <font size="1.5">
+    <i>
+     <span class="tab">curl -H "Content-Type: application/json" -X PUT -d '{"title":"Updated by BlueMix Availability Monitoring"}' http://localhost:8080/method/api/put/sim<br>
+    </i> 
+    </font>
+    <hr>
+    <h3>PUT Method with Security<h3>
+    <font size="2">
+    The following API is a simulated PUT with security. No actual data will be updated.  See BlueMix log for evidence this took place
+    Note that the PUT *must* be accompanied with the JSON header, data and valid credentials.
+    <ul>
+       <li>PUT Test <span class="blue"><a href="{{ putsimsecured }}">{{ putsimsecured }}</a></span> </li> 
+    </ul>
+   Example Curl Command: <br>
+    </font>
+    <font size="1.5">
+    <i>
+     <span class="tab">curl -u userid:password -H "Content-Type: application/json" -X PUT -d '{"title":"Updated by BlueMix Availability Monitoring"}' http://localhost:8080/method/api/put/secured/sim<br>
+    </i> 
+    </font>
+    <hr>
+
+
+    <h3>POST Method<h3>
+    <font size="2">
+    The following API is a simulated POST. No actual data will be inserted.  See BlueMix log for evidence this took place
+    Note that the POST *must* be accompanied with the JSON header and data
+    <ul>
+       <li>POST Test <span class="blue"><a href="{{ postsim }}">{{ postsim }}</a></span> </li> 
+
+    </ul>
+   Example Curl Command: <br>
+    </font>
+    <font size="1.5">
+    <i>
+     <span class="tab">curl -H "Content-Type: application/json" -X POST -d '{"title":"Added by BlueMix Availability Monitoring"}' http://localhost:8080/method/api/post/sim<br>
+    </i> 
+    </font>
+    <hr>
+    <h3>POST Method with Security<h3>
+    <font size="2">
+    The following API is a simulated POST with security. No actual data will be inserted.  See BlueMix log for evidence this took place
+    Note that the POST *must* be accompanied with the JSON header, data and valid credentials
+    <ul>
+       <li>POST test with Security <span class="blue"><a href="{{ postsimsecured }}">{{ postsimsecured }}</a></span> </li> 
+
+    </ul>
+   Example Curl Command: <br>
+    </font>
+    <font size="1.5">
+    <i>
+     <span class="tab">curl -u userid:password -H "Content-Type: application/json" -X POST -d '{"title":"Added by BlueMix Availability Monitoring"}' http://localhost:8080/method/api/post/secured/sim<br>
+    </i> 
+    </font>
+
+
+    <hr>
+    <h3>DELETE Method<h3>
+    <font size="2">
+    The following API is a simulated DELETE. No actual data will be delete.  See BlueMix log for evidence this took place
+    <ul>
+       <li>DELETE Test <span class="blue"><a href="{{ deletesim }}">{{ deletesim }}</a></span> </li> 
+
+    </ul>
+    <hr>
+    <h3>DELETE Method with Security<h3>
+    <font size="2">
+    The following API is a simulated DELETE with security. No actual data will be delete.  See BlueMix log for evidence this took place
+    <ul>
+       <li>DELETE Test with Security <span class="blue"><a href="{{ deletesimsecured }}">{{ deletesimsecured }}</a></span> </li> 
+
+    </ul>
+   Example Curl Command: <br>
+    </font>
+    <font size="1.5">
+    <i>
+     <span class="tab">curl -u userid:password -X DELETE http://localhost:8080/method/api/delete/secured/sim<br>
+    </i> 
+    </font>
+    <hr>
+ 
+    <form method="post">
+        <button type="submit" style="background-color:gray" name="submit" value="GoHome">Return</button>
+    </form>
+</html>

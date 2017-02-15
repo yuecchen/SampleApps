@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+        <title>Screen Shot Test</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <link rel="stylesheet" href="../static/stylesheets/style.css" />
+</head>
+
+
+<body>
+    <td style='width: 30%;'><img class = 'newappIcon' src='../static/images/test.gif'>
+    <h1>Web Page - Screen Shot Test</h1>
+    <h3>Time is {{ current_time }}</h3>
+    <p>This webpage posts several images available online and one that is non-existant</p>
+    <img src="http://placehold.it/350x150">
+    <img src="http://placehold.it/140x100">
+    <img src="http://placehold.it/200x100">
+    <img src="http://placehold.it/350x65">
+    <img src="http://placehold.it/aintthere">
+    <form method="post">
+        <button type="submit" style="background-color:gray">Return</button>
+    </form>
+
+</html>

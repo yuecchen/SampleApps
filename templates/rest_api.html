@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+<style>
+i { 
+    font-style: italic;
+}
+</style>
+<title>PAT ReST API</title>
+<head>
+        <title>PAT ReST API Information</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <link rel="stylesheet" href="../static/stylesheets/style.css" />
+</head>
+
+
+<body>
+    <h1>ReST API Information</h1>
+    <br>
+    <p>The current time is <span class='blue'>{{ current_time }}</span></p>
+    <hr>
+    <br>
+    <h3>To Do Task list API<h3>
+    <font size="2">
+    <p>
+    The ToDo API resides here: <span class="blue"><a href="{{ todoapi}}">{{ todoapi }}</a></span>
+    </p>
+    </font>
+    <p>
+    <font size="2">
+    A simple task list of To Do items is implemented via a ReST API that is accessible via the /todo/api/tasks
+    URL off of the base URL. 
+    <br> The rest_client program will add, update and delete records repeatedly.
+    <br> You may stop the rest_client program and click the Reset Task Data button to put things back in 
+    a default state. You may also click the Refresh button to observe changes to the data structure.
+    </font>
+    <h4>Reset Task Data Structure </h4>
+    <form method="post">
+        <button type="submit" style="background-color:gray" name="submit" value="TaskReset">Reset Task Data</button>
+    </form>
+    <br>
+    <hr>
+    <p>
+    Task data is currently: <br> 
+    <pre><span class='blue'>{{ task_info }}</span></pre>
+    <br>
+    <form method="post">
+        <button type="submit" style="background-color:gray" name="submit" value="Refresh">Refresh</button>
+    </form>
+    <hr>
+    <h3>Consistent Delay API's<h3>
+    <p>
+    <font size="2">
+    The following API's will provide consistent delay times of one thru nine seconds.  
+    <ul>
+       <li><span class="blue"><a href="{{ apione }}">{{ apione }}</a></span> [1 second delay] </li>
+       <li><span class="blue"><a href="{{ apitwo }}">{{ apitwo }}</a></span> [2 second delay] </li> 
+       <li><span class="blue"><a href="{{ apithree }}">{{ apithree }}</a></span> [3 second delay] </li> 
+       <li><span class="blue"><a href="{{ apifour }}">{{ apifour }}</a></span> [4 second delay] </li> 
+       <li><span class="blue"><a href="{{ apifive }}">{{ apifive }}</a></span> [5 second delay] </li> 
+       <li><span class="blue"><a href="{{ apisix }}">{{ apisix }}</a></span>    [6 second delay] </li> 
+       <li><span class="blue"><a href="{{ apiseven }}">{{ apiseven }}</a></span> [7 second delay] </li> 
+       <li><span class="blue"><a href="{{ apieight }}">{{ apieight }}</a></span>  [8 second delay] </li> 
+       <li><span class="blue"><a href="{{ apinine }}">{{ apinine }}</a></span>    [9 second delay] </li> 
+    </ul>
+    </font> 
+    <hr>
+    <h3>Random Delay API's<h3>
+    <p>
+    <font size="2">
+    The following API's will provide random delay times   
+    <ul>
+       <li><span class="blue"><a href="{{ apisubone }}">{{ apisubone }}</a></span> [random 0 to 1 second delay] </li>
+       <li><span class="blue"><a href="{{ apisubnine }}">{{ apisubnine }}</a></span> [random 1 to 9 second delay] </li>
+    </ul>
+    </font>
+    <hr>
+    <h3>Access of Delay API's<h3>
+    <p> 
+    <font size="2">
+    For now the delayed ReST API's are accessible via Curl if they need to be checked against the monitoring solution.
+    A JSON object will be returned back indicating the delay time
+    Example: <br>
+    <i>
+     <span class="tab">curl -i http://localhost:8080/delay/api/subnine<br>
+     <span class='blue'>
+     <span class="tab">HTTP/1.0 200 OK<br>
+     <span class="tab">Content-Type: application/json<br>
+     <span class="tab">Content-Length: 22<br>
+     <span class="tab">Server: Werkzeug/0.11.3 Python/3.4.3i<br>
+     <span class="tab">Date: Thu, 25 Feb 2016 21:00:10 GMTi<br>
+     <span class="tab">{<br>
+     <span class="tab"><span class="tab">"Delay:": "3.84"<br>
+     <span class="tab">}<br>
+     </span>
+    </i> 
+    </font> 
+    <hr>
+    <form method="post">
+        <button type="submit" style="background-color:gray" name="submit" value="GoHome">Return</button>
+    </form>
+</html>

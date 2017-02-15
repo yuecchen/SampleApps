@@ -1,0 +1,15 @@
+Setup Python3 virtual environment
+	python3 -m venv venv
+
+Start virtual environment
+	source venv/bin/activate
+
+
+Update Pip to the latest version
+	pip install --upgrade pip
+
+Install flask
+	pip install flask
+
+Install psutils
+        pip3 install psutil

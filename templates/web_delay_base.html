@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+        <title>Python Application Test</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <link rel="stylesheet" href="../static/stylesheets/style.css" />
+</head>
+
+
+<body>
+    <h1>Delayed Web Pages</h1>
+    <h4>Time is {{ current_time }}</h4>
+    <p>Links to Web Pages that will delay loading [Consistent Load Times]</p>
+
+    <dl style="list-style-type:circle">
+                <dt><a href="{{ url_for('web_delay_one') }}"><span class="blue">Web Load Delay: One Second</span></a></dt>
+                <dd>> This Web Page will have a consistent delay of 1 second on load</dd>
+                <dt><a href="{{ url_for('web_delay_two') }}"><span class="blue">Web Load Delay: Two Seconds</span></a></dt>
+                <dd>> This Web Page will have a consistent delay of 2 seconds on load</dd>
+                <dt><a href="{{ url_for('web_delay_three') }}"><span class="blue">Web Load Delay: Three Seconds</span></a></dt>
+                <dd>> This Web Page will have a consistent delay of 3 seconds on load</dd>
+                <dt><a href="{{ url_for('web_delay_four') }}"><span class="blue">Web Load Delay: Four Seconds</span></a></dt>
+                <dd>> This Web Page will have a consistent delay of 4 seconds on load</dd>
+                <dt><a href="{{ url_for('web_delay_five') }}"><span class="blue">Web Load Delay: Five Seconds</span></a></dt>
+                <dd>> This Web Page will have a consistent delay of 5 seconds on load</dd>
+                <dt><a href="{{ url_for('web_delay_six') }}"><span class="blue">Web Load Delay: Six Seconds</span></a></dt>
+                <dd>> This Web Page will have a consistent delay of 6 seconds on load</dd>
+                <dt><a href="{{ url_for('web_delay_seven') }}"><span class="blue">Web Load Delay: Seven Seconds</span></a></dt>
+                <dd>> This Web Page will have a consistent delay of 7 seconds on load</dd>
+                <dt><a href="{{ url_for('web_delay_eight') }}"><span class="blue">Web Load Delay: Eight Seconds</span></a></dt>
+                <dd>> This Web Page will have a consistent delay of 8 seconds on load</dd>
+                <dt><a href="{{ url_for('web_delay_nine') }}"><span class="blue">Web Load Delay: Nine Seconds</span></a></dt>
+                <dd>> This Web Page will have a consistent delay of 9 seconds on load</dd>
+       </dl>
+    <hr>
+    <p>Links to Web Pages that will delay loading [Random Load Times]</p>
+
+    <dl style="list-style-type:circle">
+                <dt><a href="{{ url_for('web_delay_subone') }}"><span class="blue">Web Load Delay: Random from Zero to One Second</span></a></dt>
+                <dd>> This Web Page will have a consistent delay of anywhere from 0 to 1 second on load</dd>
+                <dt><a href="{{ url_for('web_delay_subnine') }}"><span class="blue">Web Load Delay: Random from Zero to Nine Seconds</span></a></dt>
+                <dd>> This Web Page will have a consistent delay of anywhere from 0 to 9 seconds on load</dd>
+    </dl>
+    <form method="post">
+        <button type="submit" style="background-color:gray">Return</button>
+    </form>
+
+</html>

@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<title>PAT CPU Utilization</title>
+<head>
+        <title>PAT CPU Utilization</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <link rel="stylesheet" href="../static/stylesheets/style.css" />
+</head>
+
+
+<body>
+    <h1>CPU Utilization for each Logical Core</h1>
+    <br>
+    <p>The current time is <span class='blue'>{{ current_time }}</span></p>
+    <br>
+    CPU utilization <span class='blue'>{{ logical_core_usage }}</span>
+    <br>
+    <form method="post">
+        <button type="submit" style="background-color:gray" name="submit" value="GoHome">Return</button>
+    </form>
+
+</html>

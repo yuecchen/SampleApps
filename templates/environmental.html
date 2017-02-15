@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+<title>PAT Environmentals</title>
+<head>
+        <title>PAT Environmentals</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <link rel="stylesheet" href="../static/stylesheets/style.css" />
+</head>
+
+
+<body>
+    <h1>Environmental Information</h1>
+    <br>
+    <p>The current time is <span class='blue'>{{ current_time }}</span></p>
+    <br>
+    <h3>BlueMix|Cloud Foundry Information</h3>
+    <hr>
+    <p>
+    This is information is pulled from the VCAP_ENVIRONMENT variable on BlueMix
+    </p>
+    <p>
+    Application memory allocation is  <span class='blue'>{{ appmem }}</span>
+    <br>
+    Application disk allocation is  <span class='blue'>{{ appdisk }}</span>
+    <br>
+    Application name is  <span class='blue'>{{ appname }}</span>
+    <br>
+    Application URI is  <span class='blue'>{{ appuri }}</span>
+    <br>
+    Application version is  <span class='blue'>{{ appver }}</span>
+    <br>
+    Application ID is  <span class='blue'>{{ appid }}</span>
+    <br>
+    Instance ID is  <span class='blue'>{{ instid }}</span>
+    <br>
+    Instance Index is  <span class='blue'>{{ instidx }}</span>
+    <br>
+    Application host is  <span class='blue'>{{ apphost }}</span>
+    <br>
+    Application port is  <span class='blue'>{{ appport }}</span>
+    <br>
+    <h3>Processor Information </h3>
+    <form method="post">
+        <button type="submit" style="background-color:gray" name="submit" value="CPUUsage">CPU Utilization</button>
+        <span style="color:#FE642E"> Delay as utilization data gathered over 5 seconds</span><br>
+    </form>
+    <hr>
+    <p>
+    CPU type is <span class='blue'>{{ cpu_info }}</span>
+    <br>
+    Logical core count is <span class='blue'>{{ logical_core_count }}</span>
+    <br>
+    Physical core count is <span class='blue'>{{ physical_core_count }}</span>
+    <br>
+    CPU Endianess [Byte Order] <span class='blue'>{{ cpu_endianess }}</span>
+    </p>
+    <h3>Memory Information</h3>
+    <hr>
+    <p>
+    Total memory is  <span class='blue'>{{ total_memory }}</span>
+    <br>
+    Free memory is  <span class='blue'>{{ free_memory }}</span>
+    <br>
+    Available memory is  <span class='blue'>{{ avail_memory }}</span>
+    <br>
+    Total swap is  <span class='blue'>{{ total_swap }}</span>
+    <br>
+    Free swap is  <span class='blue'>{{ free_swap }}</span>
+    </p>
+    <h3>Operating System Information</h3>
+    <hr>
+    <p>
+    OS type is  <span class='blue'>{{ os_type }}</span>
+    <br>
+    <!--
+    OS platform is  <span class='blue'>{{ plat }}</span>
+    <br>
+    -->
+    OS architecture is  <span class='blue'>{{ os_arch }}</span>
+    <br>
+    OS kernel is  <span class='blue'>{{ os_kernel }}</span>
+    <br>
+    OS distro is  <span class='blue'>{{ os_distro }}</span>
+    </p>
+    <h3>Network Information</h3>
+    <hr>
+    <p>
+    <!--
+    <span style="color:#FE642E">Fix this</span><br>
+    -->
+    <pre>
+    <span class='blue'>{{ net_info }}</span>
+    </pre>
+    </p>
+    <h3>Python Information</h3>
+    <hr>
+    <p>
+    Python version is  <span class='blue'>{{ pyth_ver }}</span>
+    </p>
+    <br>
+    <form method="post">
+        <button type="submit" style="background-color:gray" name="submit" value="Refresh">Refresh</button>
+    </form>
+    <form method="post">
+        <button type="submit" style="background-color:gray" name="submit" value="GoHome">Return</button>
+    </form>
+
+</html>

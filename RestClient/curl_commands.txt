@@ -1,0 +1,18 @@
+                     << POST >>
+=========================================================
+
+curl -H "Content-Type: application/json" -X POST -d '{"title":"Added by Performance Hub", "description":"POST Test for API"}'  http://localhost:8080/todo/api/tasks
+                     << GET >>
+=========================================================
+
+curl -H "Content-Type: application/json" -X GET  http://localhost:8080/todo/api/tasks
+
+                     << PUT >>
+=========================================================
+
+curl -H "Content-Type: application/json" -X PUT -d '{"done":true}'  http://localhost:8080/todo/api/tasks/1
+
+                     << DELETE >>
+=========================================================
+
+curl -H "Content-Type: application/json" -X DELETE http://localhost:8080/todo/api/tasks/1

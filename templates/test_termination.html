@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+        <title>Python Application Test</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <link rel="stylesheet" href="../static/stylesheets/style.css" />
+</head>
+
+
+<body>
+    
+<h1>Test Termination</h1>
+    <br>
+    <p>The current time is <span class='blue'>{{ current_time }}</span></p>
+    <br>
+    <h2>Tests to Terminate</h2>
+    <form method="post">
+        <button type="submit" style="background-color:gray" name="submit" value="KillCPUTest">CPU Test</button>
+    </form><br>
+    <form method="post">
+        <button type="submit" style="background-color:gray" name="submit" value="KillMemTest">Memory Test</button>
+    </form><br>
+    <form method="post">
+        <button type="submit" style="background-color:gray" name="submit" value="KillTimeBomb">Time Bomb</button>
+    </form><br>
+    <hr>
+    <form method="post">
+        <button type="submit" style="background-color:gray" name="submit" value="GoHome">Return</button>
+    </form>
+
+</body>
+</html>

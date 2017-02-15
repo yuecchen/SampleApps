@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+<style>
+i { 
+    font-style: italic;
+}
+</style>
+<title>PAT Secure ReST API</title>
+<head>
+        <title>PAT Secure ReST API Information</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <link rel="stylesheet" href="../static/stylesheets/secure_api.css" />
+</head>
+
+
+<body>
+    <h1>ReST Secure API Information</h1>
+    <br>
+    <p>The current time is <span class='blue'>{{ current_time }}</span></p>
+    <hr>
+    <h3>Secure ReST API<h3>
+    <p>
+    <font size="2">
+    A simple ReST API that is accessible via <span class="blue"><a href="{{ apisecure}}">{{ apisecure }}</a></span><br>
+    It is secured via basic HTTP authentication. If successful authentication is completed a simple JSON object 
+    is returned.   If authentication is unsuccessful a 401 message is returned.
+    </font>
+    <br>
+    <form method="post">
+        <button type="submit" style="background-color:gray" name="submit" value="Refresh">Refresh</button>
+    </form>
+    <hr>
+    <h3>Access of Secured API<h3>
+    <p> 
+    <font size="2">
+    For now the secure ReST API's is accessible via Curl if they need to be checked against the monitoring solution.
+    A JSON object will be returned back indicating a successful login via valid username and password
+    Example: <br>
+    <i>
+     <span class="tab"> curl -i -u admin:secret http://localhost:8080/secure/api<br>
+     <span class='blue'>
+     <span class="tab">HTTP/1.0 200 OK<br>
+     <span class="tab">Content-Type: application/json<br>
+     <span class="tab">Content-Length: 23<br>
+     <span class="tab">Server: Werkzeug/0.11.4 Python/3.4.3<br>
+     <span class="tab">Date: Sun, 06 Mar 2016 20:05:51 GMT<br>
+     <span class="tab">{<br>
+     <span class="tab"><span class="tab">"Secure": "Login"<br>
+     <span class="tab">}<br>
+     </span>
+    </i> 
+    </font> 
+    <hr>
+    <h3>Current Credentials:<h3>
+    <p>The current login for the API is <span class='blue'>{{ userid }}</span></p>
+    <p>The current password for the API is <span class='blue'>{{ password }}</span></p>
+    <hr>
+    <form method="post">
+        <button type="submit" id="credentials_button" style="background-color:gray" name="submit" value="SetCredentials">Set Credentials</button>
+
+    <h3>Change Login:<h3>
+    <table>
+          <tr>
+             <td>
+                 <input type="radio" name="IdRadio" id="id_radio1" value="admin" class="css-checkbox" checked="checked"/>
+                 <label for="id_radio1" class="css-label radGroup1">admin</label>
+             </td>
+             <td>
+                 <input type="radio" name="IdRadio" id="id_radio2" value="userid" class="css-checkbox" />
+                 <label for="id_radio2" class="css-label radGroup1">userid</label>
+             </td>
+             <td>
+                 <input type="radio" name="IdRadio" id="id_radio3" value="Admin" class="css-checkbox" />
+                 <label for="id_radio3" class="css-label radGroup1">Admin</label>
+             </td>
+             <td>
+                 <input type="radio" name="IdRadio" id="id_radio4" value="Userid" class="css-checkbox" />
+                 <label for="id_radio4" class="css-label radGroup1">Userid</label>
+             </td>
+             <td>
+                 <input type="radio" name="IdRadio" id="id_radio5" value="ADMIN" class="css-checkbox" />
+                 <label for="id_radio5" class="css-label radGroup1">ADMIN</label>
+             </td>
+             <td>
+                 <input type="radio" name="IdRadio" id="id_radio6" value="USERID" class="css-checkbox" />
+                 <label for="id_radio6" class="css-label radGroup1">USERID</label>
+             </td>
+          </tr>
+    </table>
+    <hr>
+    <h3>Change Password:<h3>
+    <table>
+          <tr>
+             <td>
+                 <input type="radio" name="PwRadio" id="pw_radio1" value="password" class="css-checkbox" checked="checked"/>
+                 <label for="pw_radio1" class="css-label radGroup2">password</label>
+             </td>
+             <td>
+                 <input type="radio" name="PwRadio" id="pw_radio2" value="secret" class="css-checkbox" />
+                 <label for="pw_radio2" class="css-label radGroup2">secret</label>
+             </td>
+             <td>
+                 <input type="radio" name="PwRadio" id="pw_radio3" value="Password" class="css-checkbox" />
+                 <label for="pw_radio3" class="css-label radGroup2">Password</label>
+             </td>
+             <td>
+                 <input type="radio" name="PwRadio" id="pw_radio4" value="Secret" class="css-checkbox" />
+                 <label for="pw_radio4" class="css-label radGroup2">Secret</label>
+             </td>
+             <td>
+                 <input type="radio" name="PwRadio" id="pw_radio5" value="PASSWORD" class="css-checkbox" />
+                 <label for="pw_radio5" class="css-label radGroup2">PASSWORD</label>
+             </td>
+             <td>
+                 <input type="radio" name="PwRadio" id="pw_radio6" value="SECRET" class="css-checkbox" />
+                 <label for="pw_radio6" class="css-label radGroup2">SECRET</label>
+             </td>
+          </tr>
+    </table>
+    </form>
+    <hr>
+
+    <form method="post">
+        <button type="submit" style="background-color:gray" name="submit" value="GoHome">Return</button>
+    </form>
+</html>

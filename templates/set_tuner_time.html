@@ -1,0 +1,317 @@
+<!doctype html>
+<html>
+<style>
+i { 
+    font-style: italic;
+}
+</style>
+<title>Set Tunable Delay Time</title>
+<head>
+        <title>Set Tunable Delay Time</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <link rel="stylesheet" href="../static/stylesheets/tunable_time.css" />
+</head>
+
+
+<body>
+    <h1>Set Tunable Delay Time</h1>
+    <br>
+    <p>The current time is <span class='blue'>{{ current_time }}</span></p>
+    <hr>
+    <h3>Set Tunable Delay Time for ReST API<h3>
+    <font size="2">
+    ReST API for with Tunable Delay is accessible via <span class="blue"><a href="{{ apituner }}">{{ apituner }}</a></span> 
+    </font>
+    <p>The current setting for the API Tunable Delay is <span class='blue'>{{ api_tunable_delay }}</span></p>
+    <form method="post">
+        <button type="submit" id="api_tune_button" style="background-color:gray" name="submit" value="SetAPITime">Set API Tunable Delay Time</button>
+
+    <table>
+          <tr>
+             <td>
+                 <input type="radio" name="APIRadio" id="api_radio0" value="0" class="css-checkbox" />
+                 <label for="api_radio0" class="css-label radGroup1">0</label>
+             </td>
+          </tr>
+          <tr>
+             <td>
+                 <input type="radio" name="APIRadio" id="api_radio1" value="1" class="css-checkbox" />
+                 <label for="api_radio1" class="css-label radGroup1">1</label>
+             </td>
+             <td>
+                 <input type="radio" name="APIRadio" id="api_radio2" value="2" class="css-checkbox" />
+                 <label for="api_radio2" class="css-label radGroup1">2</label>
+             </td>
+             <td>
+                 <input type="radio" name="APIRadio" id="api_radio3" value="3" class="css-checkbox" />
+                 <label for="api_radio3" class="css-label radGroup1">3</label>
+             </td>
+             <td>
+                 <input type="radio" name="APIRadio" id="api_radio4" value="4" class="css-checkbox" checked="checked"/>
+                 <label for="api_radio4" class="css-label radGroup1">4</label>
+             </td>
+             <td>
+                 <input type="radio" name="APIRadio" id="api_radio5" value="5" class="css-checkbox" />
+                 <label for="api_radio5" class="css-label radGroup1">5</label>
+             </td>
+             <td>
+                 <input type="radio" name="APIRadio" id="api_radio6" value="6" class="css-checkbox" />
+                 <label for="api_radio6" class="css-label radGroup1">6</label>
+             </td>
+          </tr>
+          <tr>
+             <td>
+                 <input type="radio" name="APIRadio" id="api_radio7" value="7" class="css-checkbox" />
+                 <label for="api_radio7" class="css-label radGroup1">7</label>
+             </td>
+             <td>
+                 <input type="radio" name="APIRadio" id="api_radio8" value="8" class="css-checkbox" />
+                 <label for="api_radio8" class="css-label radGroup1">8</label>
+             </td>
+             <td>
+                 <input type="radio" name="APIRadio" id="api_radio9" value="9" class="css-checkbox" />
+                 <label for="api_radio9" class="css-label radGroup1">9</label>
+             </td>
+             <td>
+                 <input type="radio" name="APIRadio" id="api_radio10" value="10" class="css-checkbox" />
+                 <label for="api_radio10" class="css-label radGroup1">10</label>
+             </td>
+             <td>
+                 <input type="radio" name="APIRadio" id="api_radio11" value="11" class="css-checkbox" />
+                 <label for="api_radio11" class="css-label radGroup1">11</label>
+             </td>
+             <td>
+                 <input type="radio" name="APIRadio" id="api_radio12" value="12" class="css-checkbox" />
+                 <label for="api_radio12" class="css-label radGroup1">12</label>
+             </td>
+          </tr>
+          <tr>
+             <td>
+                 <input type="radio" name="APIRadio" id="api_radio13" value="13" class="css-checkbox" />
+                 <label for="api_radio13" class="css-label radGroup1">13</label>
+             </td>
+             <td>
+                 <input type="radio" name="APIRadio" id="api_radio14" value="14" class="css-checkbox" />
+                 <label for="api_radio14" class="css-label radGroup1">14</label>
+             </td>
+             <td>
+                 <input type="radio" name="APIRadio" id="api_radio15" value="15" class="css-checkbox" />
+                 <label for="api_radio15" class="css-label radGroup1">15</label>
+             </td>
+             <td>
+                 <input type="radio" name="APIRadio" id="api_radio16" value="16" class="css-checkbox" />
+                 <label for="api_radio16" class="css-label radGroup1">16</label>
+             </td>
+             <td>
+                 <input type="radio" name="APIRadio" id="api_radio17" value="17" class="css-checkbox" />
+                 <label for="api_radio17" class="css-label radGroup1">17</label>
+             </td>
+             <td>
+                 <input type="radio" name="APIRadio" id="api_radio18" value="18" class="css-checkbox" />
+                 <label for="api_radio18" class="css-label radGroup1">18</label>
+             </td>
+          </tr>
+          <tr>
+             <td>
+                 <input type="radio" name="APIRadio" id="api_radio19" value="19" class="css-checkbox" />
+                 <label for="api_radio19" class="css-label radGroup1">19</label>
+             </td>
+             <td>
+                 <input type="radio" name="APIRadio" id="api_radio20" value="20" class="css-checkbox" />
+                 <label for="api_radio20" class="css-label radGroup1">20</label>
+             </td>
+             <td>
+                 <input type="radio" name="APIRadio" id="api_radio21" value="21" class="css-checkbox" />
+                 <label for="api_radio21" class="css-label radGroup1">21</label>
+             </td>
+             <td>
+                 <input type="radio" name="APIRadio" id="api_radio22" value="22" class="css-checkbox" />
+                 <label for="api_radio22" class="css-label radGroup1">22</label>
+             </td>
+             <td>
+                 <input type="radio" name="APIRadio" id="api_radio23" value="23" class="css-checkbox" />
+                 <label for="api_radio23" class="css-label radGroup1">23</label>
+             </td>
+             <td>
+                 <input type="radio" name="APIRadio" id="api_radio24" value="24" class="css-checkbox" />
+                 <label for="api_radio24" class="css-label radGroup1">24</label>
+             </td>
+          </tr>
+          <tr>
+             <td>
+                 <input type="radio" name="APIRadio" id="api_radio25" value="25" class="css-checkbox" />
+                 <label for="api_radio25" class="css-label radGroup1">26</label>
+             </td>
+             <td>
+                 <input type="radio" name="APIRadio" id="api_radio26" value="26" class="css-checkbox" />
+                 <label for="api_radio26" class="css-label radGroup1">26</label>
+             </td>
+             <td>
+                 <input type="radio" name="APIRadio" id="api_radio27" value="27" class="css-checkbox" />
+                 <label for="api_radio27" class="css-label radGroup1">27</label>
+             </td>
+             <td>
+                 <input type="radio" name="APIRadio" id="api_radio28" value="28" class="css-checkbox" />
+                 <label for="api_radio28" class="css-label radGroup1">28</label>
+             </td>
+             <td>
+                 <input type="radio" name="APIRadio" id="api_radio29" value="29" class="css-checkbox" />
+                 <label for="api_radio29" class="css-label radGroup1">29</label>
+             </td>
+             <td>
+                 <input type="radio" name="APIRadio" id="api_radio30" value="30" class="css-checkbox" />
+                 <label for="api_radio30" class="css-label radGroup1">30</label>
+             </td>
+          </tr>
+    </table>
+    </form>
+    <hr>
+    <h3>Set Tunable Delay Time for Web Page<h3>
+    <p>The current setting for the Web Tunable Delay is <span class='blue'>{{ web_tunable_delay }}</span></p>
+    <form method="post">
+        <button type="submit" id="web_code_button" style="background-color:gray" name="submit" value="SetWebTime">Set Web Page Delay</button>
+
+    <table>
+          <tr>
+             <td>
+                 <input type="radio" name="WebRadio" id="web_radio0" value="0" class="css-checkbox" />
+                 <label for="web_radio0" class="css-label radGroup2">0</label>
+             </td>
+          </tr>
+          <tr>
+             <td>
+                 <input type="radio" name="WebRadio" id="web_radio1" value="1" class="css-checkbox" />
+                 <label for="web_radio1" class="css-label radGroup2">1</label>
+             </td>
+             <td>
+                 <input type="radio" name="WebRadio" id="web_radio2" value="2" class="css-checkbox" />
+                 <label for="web_radio2" class="css-label radGroup2">2</label>
+             </td>
+             <td>
+                 <input type="radio" name="WebRadio" id="web_radio3" value="3" class="css-checkbox" />
+                 <label for="web_radio3" class="css-label radGroup2">3</label>
+             </td>
+             <td>
+                 <input type="radio" name="WebRadio" id="web_radio4" value="4" class="css-checkbox" checked="checked"/>
+                 <label for="web_radio4" class="css-label radGroup2">4</label>
+             </td>
+             <td>
+                 <input type="radio" name="WebRadio" id="web_radio5" value="5" class="css-checkbox" />
+                 <label for="web_radio5" class="css-label radGroup2">5</label>
+             </td>
+             <td>
+                 <input type="radio" name="WebRadio" id="web_radio6" value="6" class="css-checkbox" />
+                 <label for="web_radio6" class="css-label radGroup2">6</label>
+             </td>
+          </tr>
+          <tr>
+             <td>
+                 <input type="radio" name="WebRadio" id="web_radio7" value="7" class="css-checkbox" />
+                 <label for="web_radio7" class="css-label radGroup2">7</label>
+             </td>
+             <td>
+                 <input type="radio" name="WebRadio" id="web_radio8" value="8" class="css-checkbox" />
+                 <label for="web_radio8" class="css-label radGroup2">8</label>
+             </td>
+             <td>
+                 <input type="radio" name="WebRadio" id="web_radio9" value="9" class="css-checkbox" />
+                 <label for="web_radio9" class="css-label radGroup2">9</label>
+             </td>
+             <td>
+                 <input type="radio" name="WebRadio" id="web_radio10" value="10" class="css-checkbox" />
+                 <label for="web_radio10" class="css-label radGroup2">10</label>
+             </td>
+             <td>
+                 <input type="radio" name="WebRadio" id="web_radio11" value="11" class="css-checkbox" />
+                 <label for="web_radio11" class="css-label radGroup2">11</label>
+             </td>
+             <td>
+                 <input type="radio" name="WebRadio" id="web_radio12" value="12" class="css-checkbox" />
+                 <label for="web_radio12" class="css-label radGroup2">12</label>
+             </td>
+          </tr>
+          <tr>
+             <td>
+                 <input type="radio" name="WebRadio" id="web_radio13" value="13" class="css-checkbox" />
+                 <label for="web_radio13" class="css-label radGroup2">13</label>
+             </td>
+             <td>
+                 <input type="radio" name="WebRadio" id="web_radio14" value="14" class="css-checkbox" />
+                 <label for="web_radio14" class="css-label radGroup2">15</label>
+             </td>
+             <td>
+                 <input type="radio" name="WebRadio" id="web_radio15" value="15" class="css-checkbox" />
+                 <label for="web_radio15" class="css-label radGroup2">15</label>
+             </td>
+             <td>
+                 <input type="radio" name="WebRadio" id="web_radio16" value="16" class="css-checkbox" />
+                 <label for="web_radio16" class="css-label radGroup2">16</label>
+             </td>
+             <td>
+                 <input type="radio" name="WebRadio" id="web_radio17" value="17" class="css-checkbox" />
+                 <label for="web_radio17" class="css-label radGroup2">17</label>
+             </td>
+             <td>
+                 <input type="radio" name="WebRadio" id="web_radio18" value="18" class="css-checkbox" />
+                 <label for="web_radio18" class="css-label radGroup2">18</label>
+             </td>
+          </tr>
+          <tr>
+             <td>
+                 <input type="radio" name="WebRadio" id="web_radio19" value="19" class="css-checkbox" />
+                 <label for="web_radio19" class="css-label radGroup2">19</label>
+             </td>
+             <td>
+                 <input type="radio" name="WebRadio" id="web_radio20" value="20" class="css-checkbox" />
+                 <label for="web_radio20" class="css-label radGroup2">20</label>
+             </td>
+             <td>
+                 <input type="radio" name="WebRadio" id="web_radio21" value="21" class="css-checkbox" />
+                 <label for="web_radio21" class="css-label radGroup2">21</label>
+             </td>
+             <td>
+                 <input type="radio" name="WebRadio" id="web_radio22" value="22" class="css-checkbox" />
+                 <label for="web_radio22" class="css-label radGroup2">22</label>
+             </td>
+             <td>
+                 <input type="radio" name="WebRadio" id="web_radio23" value="23" class="css-checkbox" />
+                 <label for="web_radio23" class="css-label radGroup2">23</label>
+             </td>
+             <td>
+                 <input type="radio" name="WebRadio" id="web_radio24" value="24" class="css-checkbox" />
+                 <label for="web_radio24" class="css-label radGroup2">24</label>
+             </td>
+          </tr>
+          <tr>
+             <td>
+                 <input type="radio" name="WebRadio" id="web_radio25" value="25" class="css-checkbox" />
+                 <label for="web_radio25" class="css-label radGroup2">25</label>
+             </td>
+             <td>
+                 <input type="radio" name="WebRadio" id="web_radio26" value="26" class="css-checkbox" />
+                 <label for="web_radio26" class="css-label radGroup2">26</label>
+             </td>
+             <td>
+                 <input type="radio" name="WebRadio" id="web_radio27" value="27" class="css-checkbox" />
+                 <label for="web_radio27" class="css-label radGroup2">27</label>
+             </td>
+             <td>
+                 <input type="radio" name="WebRadio" id="web_radio28" value="28" class="css-checkbox" />
+                 <label for="web_radio28" class="css-label radGroup2">28</label>
+             </td>
+             <td>
+                 <input type="radio" name="WebRadio" id="web_radio29" value="29" class="css-checkbox" />
+                 <label for="web_radio29" class="css-label radGroup2">29</label>
+             </td>
+             <td>
+                 <input type="radio" name="WebRadio" id="web_radio30" value="30" class="css-checkbox" />
+                 <label for="web_radio30" class="css-label radGroup2">30</label>
+             </td>
+          </tr>
+    </table>
+    </form>
+    <hr>
+    <form method="post">
+        <button type="submit" style="background-color:gray" name="submit" value="GoHome">Return</button>
+    </form>
+</html>

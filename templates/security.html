@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+<head>
+        <title>Info</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <link rel="stylesheet" href="../static/stylesheets/style.css" />
+</head>
+
+<body>
+       <table>
+                <tr>
+                        <td style='width: 10%;'><img class = 'pattyIcon' src='../static/images/peppermintpatty.png'>
+                        </td>
+                        <td>
+                                <span class="tab"></span><span class="blue">Python  Application Test</span>
+                                </br><font size="1"><span class="tab"></span><span style="color:yellow">[Version 1.1]</span></font>
+                        </td>
+                </tr>
+        </table>
+    <hr>
+    <h4>Functionality included in Version 1.0</h4>
+    <font size="2">
+    <ul>
+        <li>Web URL delay on loading on consistent range from 1 to 9 seconds </li>
+        <li>Web URL delay on loading on random range from 0 to 1 seconds </li>
+        <li>Web URL delay on loading on random range from 0 to 9 seconds </li>
+        <li>API delay on loading on consistent range from 1 to 9 seconds </li>
+        <li>API delay on loading on random range from 0 to 1 seconds </li>
+        <li>API delay on loading on random range from 0 to 9 seconds </li>
+        <li>Expose a task ToDo list data structure over ReST API and allow client to add records, modify records and delete records</li>
+        <li>Force internal server error on button click</li>
+        <li>Force App abend on button click</li>
+        <li>Launch one CPU worker process per Logical Core to induce load</li>
+        <li>Display Linux environmental information for the space the App is running in</li>
+    </ul>   
+    </font> 
+    <hr>
+    <h4>Functionality included in Version 1.1</h4>
+    <font size="2">
+    <ul>
+        <li>Add basic HTTP Authentication for ReST API</li>
+        <li>Ability to change UserId on the fly for ReST API HTTP Authentication</li>
+        <li>UserId covers all lowercase, all Uppercase and a mixture</li>
+        <li>Ability to change Password on the fly for ReST API HTTP Authentication</li>
+        <li>Password covers all lowercase, all Uppercase and a mixture</li>
+        <li>Set App time bomb on a specific schedule</li>
+        <li>Set App time bomb on a random schedule</li>
+        <li>Ability to stop App time bomb if set</li>
+        <li>Ability to set specific HTTP Status code for ReST API</li>
+        <li>Ability to set specific HTTP Status code for a Web Page</li>
+    </ul>   
+    </font> 
+    <hr>
+    <h4>Functionality that is yet to be added</h4>
+    <font size="2">
+    <ul>
+        <span style="color:red"><li>Write client to pull the delayed Rest URI's and keep track of times to compare with BlueMix APM results </li></span>
+        <span style="color:red"><li>Add key for HTTP Status codes</li></span>
+        <span style="color:red"><li>Add Memory Worker task for application load</li></span>
+        <li>Add a display of the IP addresses used by the VM on the Environmental page</li>
+        <li>Add ability to launch more than 1 CPU worker per core if desired</li>
+        <li>Add Disk I/O Worker task for application load</li>
+        <li>Add Network Socket task for application load [would need client as well]</li>
+        <li>Add App logging, ability to save logs locally from App and clear Logs</li>
+        <li>Add Refresh Buttons on Web Random Delay pages</li>
+        <li>Add Customizable Delay for Web Page</li>
+        <li>Add Customizable Delay for Rest</li>
+        <li>Add current user info to Environmental page</li>
+        <li>Add process info off of Environmental page</li>
+        <li>Add Disk info off of Environmental page</li>
+        <li>Add new tests to  Test Status Page as they are added</li>
+        <li>Possibly add some code that can be maliciously exploited via URL data entry box if not blocked</li>
+        <li>Add button to induce Environmental Kernel Panic via Sysrq - need to worm around sudo restriction</li>
+        <li>Break out Javascript from HTML files and into seperate static javascript files = TimeBomb<li>
+        <li>Refactor, cleanup and comment this entire mess	</li>
+    </ul>   
+    </font> 
+    <hr>
+    <h4>Things that need to be fixed</h4>
+    <font size="2">
+    <ul>
+        <li>Network stats display on Environmental page</li>
+        <li>graphics jumbled on Web Delay zero to nine page</li>
+        <li>Task data display on ReST API pages jumbled and ugly</li>
+        <li>Clean up Test Status Page</li>
+        <li>Clean up text on Rest API Page; add better Curl and restclient examples</li>
+    </ul>   
+    </font> 
+    <form method="post">
+        <button type="submit" style="background-color:gray">Return</button>
+    </form>
+
+
+</body>
+</html>
+
+

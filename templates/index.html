@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+        <title>PATTY</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <link rel="stylesheet" href="../static/stylesheets/style.css" />
+</head>
+
+<body>
+       <table>
+                <tr>
+                        <td style='width: 30%;'><img class = 'newappIcon' src='../static/images/newapp-icon.png'>
+                        </td>
+                        <td>
+                                <h1 id = "message">Welcome</h1>
+                                <p class='description'></p> Home page for <span class="blue">Python  Application Test</span>
+                                </br><font size="1"><span class="tab"></span><span style="color:yellow">[Version 1.4]</span></font>
+                        </td>
+                </tr>
+        </table>
+       <dl style="list-style-type:circle">
+                <dt><a href="{{ url_for('environmental') }}"><span class="blue">Environmentals</span></a></dt>
+                <dd>> Information on the environment that PAT is running on</dd>
+                <dt><a href="{{ url_for('test_selection') }}"><span class="blue">Test Selection</span></a></dt>
+                <dd>> Select the tests for PAT to start</dd>
+                <dt><a href="{{ url_for('test_termination') }}"><span class="blue">Test Termination</span></a></dt>
+                <dd>> Select the tests for PAT to stop</dd>
+                <dt><a href="{{ url_for('test_status') }}"><span class="blue">Status</span></a></dt>
+                <dd>> Status of the tests that PAT is running</dd>
+                <dt><a href="{{ url_for('rest_api') }}"><span class="blue">ReST API Information</span></a></dt>
+                <dd>> Information on  PAT's various ReST API's </dd>
+                <dt><a href="{{ url_for('secure_rest_api') }}"><span class="blue">Secure ReST API Information</span></a></dt>
+                <dd>> Information on  PAT's Secured ReST API </dd>
+                <dt><a href="{{ url_for('api_method') }}"><span class="blue">ReST API Method Tests</span></a></dt>
+                <dd>> ReST API Method Tests </dd>
+                <dt><a href="{{ url_for('web_delay_base') }}"><span class="blue">Delayed Web Pages for Response Time Tests</span></a></dt>
+                <dd>> Web pages that will delay loading for various times </dd>
+                <dt><a href="{{ url_for('web_large_base') }}"><span class="blue">Web Pages with varying data amounts</span></a></dt>
+                <dd>> Web pages that return various large amounts of data </dd>
+                <dt><a href="{{ url_for('web_large_pull') }}"><span class="blue">Web Page that pulls images off internet</span></a></dt>
+                <dd>> Web page that  pulls images</dd>
+                <dt><a href="{{ url_for('timebomb') }}"><span class="blue">Set Time Bomb</span></a></dt>
+                <dd>> Set Time Bomb </dd>
+                <dt><a href="{{ url_for('web_status_code') }}"><span class="blue">Test Web Status Code</span></a></dt>
+                <dd>> Returns HTTP Status Code that is set </dd>
+                <dt><a href="{{ url_for('web_tunable_delay') }}"><span class="blue">Web Page with Tunable Delay</span></a></dt>
+                <dd>> Web Page with Tunable Delay Time</dd>
+                <dt><a href="{{ url_for('set_status_codes') }}"><span class="blue">Set HTTP Status Code for Web & API</span></a></dt>
+                <dd>> Set HTTP Status Return Code for Web and API </dd>
+                <dt><a href="{{ url_for('set_tuner_time') }}"><span class="blue">Set Tunable Delay Times</span></a></dt>
+                <dd>> Set tunable delay time for Web and API </dd>
+                <dt><a href="{{ url_for('web_screenshot_test') }}"><span class="blue">Web Screen Shot Test</span></a></dt>
+                <dd>> Web Page for testing Screen Shot capability </dd>
+                <dt><a href="{{ url_for('info') }}"><span class="blue">PAT Information</span></a></dt>
+                <dd>> Information on the PAT App </dd>
+        
+       </dl>
+
+
+</body>
+</html>
+
+

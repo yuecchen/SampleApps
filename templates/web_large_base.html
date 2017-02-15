@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <link rel="stylesheet" href="../static/stylesheets/style.css" />
+</head>
+
+
+<body>
+    <h1>Large Web Pages</h1>
+    <h3>Time is {{ current_time }}</h3>
+    <hr>
+    <br>
+    <font size="2">
+    The following Web Pages will pull randomly generated Photo Album data in text JSON format
+    <dl style="list-style-type:circle">
+                <dt><a href="{{ url_for('web_mini') }}"><span class="blue">Web Mini: Photo Album Data [~22K in size]</span></a></dt>
+                <dd>> This Web Page will load random text JSON data for a photo album - 100 photos</dd>
+                <dt><a href="{{ url_for('web_small') }}"><span class="blue">Web Small: Photo Album Data [~220K in size]</span></a></dt>
+                <dd>> This Web Page will load random text JSON data for a photo album - 1,000 photos</dd>
+                <dt><a href="{{ url_for('web_medium') }}"><span class="blue">Web Medium: Photo Album Data [~1.1M in size]</span></a></dt>
+                <dd>> This Web Page will load random text JSON data for a photo album - 5,000 photos</dd>
+                <dt><a href="{{ url_for('web_large') }}"><span class="blue">Web Large: Photo Album Data [~2.2M in size]</span></a></dt>
+                <dd>> This Web Page will load random text JSON data for a photo album - 10,000 photos</dd>
+                <dt><a href="{{ url_for('web_xl') }}"><span class="blue">Web XL: Photo Album Data [~22M in size]</span></a></dt>
+                <dd>> This Web Page will load random text JSON data for a photo album - 100,000 photos</dd>
+                <dt><a href="{{ url_for('web_xxl') }}"><span class="blue">Web XXL: Photo Album Data [~110M in size]</span></a></dt>
+                <dd>> This Web Page will load random text JSON data for a photo album - 500,000 photos</dd>
+                <dt><a href="{{ url_for('web_xxxl') }}"><span class="blue">Web XXL: Photo Album Data [~220M in size]</span></a></dt>
+                <dd>> This Web Page will load random text JSON data for a photo album - 1,000,000 photos</dd>
+       </dl>
+    </font> 
+    <hr>
+    <font size="2">
+    The following Web Page pulls Photo Album images in jpeg format
+    <dl style="list-style-type:circle">
+                <dt><a href="{{ url_for('web_pix') }}"><span class="blue">Web Pix: Photo Album Images [~12M in size aggregate]</span></a></dt>
+                <dd>> This Web Page will load photo images - 39 photos</dd>
+
+       </dl>
+    </font> 
+    <hr>
+
+    <form method="post">
+        <button type="submit" style="background-color:gray">Return</button>
+    </form>
+
+</html>
