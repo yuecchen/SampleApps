@@ -91,8 +91,8 @@ def build_api_urls():
     API_CODE = 'http://'+APP_URI+'/code/api'
     API_ONE = 'http://'+APP_URI+'/delay/api/one'
     API_TWO = 'http://'+APP_URI+'/shop'
-    API_THREE = 'http://'+APP_URI+'/delay/api/three'
-    API_FOUR = 'http://'+APP_URI+'/delay/api/four'
+    API_THREE = 'http://'+APP_URI+'/mobileCheckout'
+    API_FOUR = 'http://'+APP_URI+'/login'
     API_FIVE = 'http://'+APP_URI+'/delay/api/five'
     API_SIX = 'http://'+APP_URI+'/delay/api/six'
     API_SEVEN = 'http://'+APP_URI+'/delay/api/seven'
@@ -406,12 +406,12 @@ def get_delay_two():
     time.sleep(2)
     return jsonify({'Delay:': 'Two seconds'})
 
-@app.route('/delay/api/three', methods=['GET'])
+@app.route('/mobileCheckout', methods=['GET'])
 def get_delay_three():
     time.sleep(3)
     return jsonify({'Delay:': 'Three seconds'})
 
-@app.route('/delay/api/four', methods=['GET'])
+@app.route('/login', methods=['GET'])
 def get_delay_four():
     time.sleep(4)
     return jsonify({'Delay:': 'Four seconds'})
