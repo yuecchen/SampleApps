@@ -90,7 +90,7 @@ def build_api_urls():
     TODO_API = 'http://'+APP_URI+'/todo/api/tasks'
     API_CODE = 'http://'+APP_URI+'/code/api'
     API_ONE = 'http://'+APP_URI+'/delay/api/one'
-    API_TWO = 'http://'+APP_URI+'/delay/api/two'
+    API_TWO = 'http://'+APP_URI+'/shop'
     API_THREE = 'http://'+APP_URI+'/delay/api/three'
     API_FOUR = 'http://'+APP_URI+'/delay/api/four'
     API_FIVE = 'http://'+APP_URI+'/delay/api/five'
@@ -401,7 +401,7 @@ def get_delay_one():
     time.sleep(1)
     return jsonify({'Delay:': 'One second'})
 
-@app.route('/delay/api/two', methods=['GET'])
+@app.route('/shop', methods=['GET'])
 def get_delay_two():
     time.sleep(2)
     return jsonify({'Delay:': 'Two seconds'})
