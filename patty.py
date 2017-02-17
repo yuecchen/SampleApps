@@ -403,7 +403,7 @@ def get_delay_one():
 
 @app.route('/shop', methods=['GET'])
 def get_delay_two():
-    time.sleep(2)
+    time.sleep(3)
     return jsonify({'Delay:': 'Two seconds'})
 
 @app.route('/checkout', methods=['GET'])
@@ -413,7 +413,7 @@ def get_delay_three():
 
 @app.route('/login', methods=['GET'])
 def get_delay_four():
-    time.sleep(4)
+    time.sleep(0)
     return jsonify({'Delay:': 'Four seconds'})
 
 @app.route('/delay/api/five', methods=['GET'])
