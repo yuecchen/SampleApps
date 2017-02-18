@@ -93,10 +93,10 @@ def build_api_urls():
     API_TWO = 'http://'+APP_URI+'/shop'
     API_THREE = 'http://'+APP_URI+'/checkout'
     API_FOUR = 'http://'+APP_URI+'/login'
-    API_FIVE = 'http://'+APP_URI+'/delay/api/five'
-    API_SIX = 'http://'+APP_URI+'/delay/api/six'
-    API_SEVEN = 'http://'+APP_URI+'/delay/api/seven'
-    API_EIGHT = 'http://'+APP_URI+'/delay/api/eight'
+    API_FIVE = 'http://'+APP_URI+'/BigBlueGizmos/OnlineSalesApp/Catalog'
+    API_SIX = 'http://'+APP_URI+'/BigBlueGizmos/OnlineSalesApp/Cart'
+    API_SEVEN = 'http://'+APP_URI+'/BigBlueGizmos/OnlineSalesApp/Purchase'
+    API_EIGHT = 'http://'+APP_URI+'/BigBlueGizmos/OnlineSalesApp/Authenticate'
     API_NINE = 'http://'+APP_URI+'/delay/api/nine'
     API_SUBONE = 'http://'+APP_URI+'/delay/api/subone'
     API_SUBNINE = 'http://'+APP_URI+'/delay/api/subnine'
@@ -416,22 +416,22 @@ def get_delay_four():
     time.sleep(0)
     return jsonify({'Delay:': 'Four seconds'})
 
-@app.route('/delay/api/five', methods=['GET'])
+@app.route('/BigBlueGizmos/OnlineSalesApp/Catalog', methods=['GET'])
 def get_delay_five():
     time.sleep(5)
     return jsonify({'Delay:': 'Five seconds'})
 
-@app.route('/delay/api/six', methods=['GET'])
+@app.route('/BigBlueGizmos/OnlineSalesApp/Cart', methods=['GET'])
 def get_delay_six():
     time.sleep(6)
     return jsonify({'Delay:': 'Six seconds'})
 
-@app.route('/delay/api/seven', methods=['GET'])
+@app.route('/BigBlueGizmos/OnlineSalesApp/Purchase', methods=['GET'])
 def get_delay_seven():
     time.sleep(7)
     return jsonify({'Delay:': 'Seven seconds'})
 
-@app.route('/delay/api/eight', methods=['GET'])
+@app.route('/BigBlueGizmos/OnlineSalesApp/Authenticate', methods=['GET'])
 def get_delay_eight():
     time.sleep(8)
     return jsonify({'Delay:': 'Eight seconds'})
