@@ -1,5 +1,5 @@
 ---
 applications:
 - name: PattyBaseApp
-  memory: 512M
+  memory: 128M
   disk_quota: 1024M
