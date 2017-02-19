@@ -399,42 +399,42 @@ def get_delay_subnine():
 @app.route('/delay/api/one', methods=['GET'])
 def get_delay_one():
     time.sleep(1)
-    return jsonify({'Delay:': 'One second'})
+    return jsonify({'API:': 'One second'})
 
 @app.route('/shop', methods=['GET'])
 def get_delay_two():
     time.sleep(2)
-    return jsonify({'Delay:': 'Two seconds'})
+    return jsonify({'API:': 'shop'})
 
 @app.route('/checkout', methods=['GET'])
 def get_delay_three():
     time.sleep(2)
-    return jsonify({'Delay:': 'Three seconds'})
+    return jsonify({'API:': 'checkout'})
 
 @app.route('/login', methods=['GET'])
 def get_delay_four():
     time.sleep(10)
-    return jsonify({'Delay:': 'Four seconds'})
+    return jsonify({'API:': 'login'})
 
 @app.route('/BigBlueGizmos/OnlineSalesApp/Catalog', methods=['GET'])
 def get_delay_five():
     time.sleep(2)
-    return jsonify({'Delay:': 'Five seconds'})
+    return jsonify({'API:': 'Catalog'})
 
 @app.route('/BigBlueGizmos/OnlineSalesApp/Cart', methods=['GET'])
 def get_delay_six():
     time.sleep(2)
-    return jsonify({'Delay:': 'Six seconds'})
+    return jsonify({'API:': 'Cart'})
 
 @app.route('/BigBlueGizmos/OnlineSalesApp/Purchase', methods=['GET'])
 def get_delay_seven():
     time.sleep(2)
-    return jsonify({'Delay:': 'Seven seconds'})
+    return jsonify({'API:': 'Purchase'})
 
 @app.route('/BigBlueGizmos/OnlineSalesApp/Authenticate', methods=['GET'])
 def get_delay_eight():
     time.sleep(0)
-    return jsonify({'Task:': 'Authenticate'})
+    return jsonify({'API:': 'Authenticate'})
 
 @app.route('/delay/api/nine', methods=['GET'])
 def get_delay_nine():
