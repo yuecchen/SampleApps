@@ -413,7 +413,7 @@ def get_delay_three():
 
 @app.route('/login', methods=['GET'])
 def get_delay_four():
-    time.sleep(0)
+    time.sleep(10)
     return jsonify({'Delay:': 'Four seconds'})
 
 @app.route('/BigBlueGizmos/OnlineSalesApp/Catalog', methods=['GET'])
@@ -434,7 +434,7 @@ def get_delay_seven():
 @app.route('/BigBlueGizmos/OnlineSalesApp/Authenticate', methods=['GET'])
 def get_delay_eight():
     time.sleep(0)
-    return jsonify({'Authenticate'})
+    return jsonify({'Task:': 'Authenticate'})
 
 @app.route('/delay/api/nine', methods=['GET'])
 def get_delay_nine():
