@@ -403,12 +403,12 @@ def get_delay_one():
 
 @app.route('/shop', methods=['GET'])
 def get_delay_two():
-    time.sleep(4)
+    time.sleep(8)
     return jsonify({'API:': 'shop'})
 
 @app.route('/checkout', methods=['GET'])
 def get_delay_three():
-    time.sleep(5)
+    time.sleep(9)
     return jsonify({'API:': 'checkout'})
 
 @app.route('/login', methods=['GET'])
@@ -418,17 +418,17 @@ def get_delay_four():
 
 @app.route('/BigBlueGizmos/OnlineSalesApp/Catalog', methods=['GET'])
 def get_delay_five():
-    time.sleep(4)
+    time.sleep(8)
     return jsonify({'API:': 'Catalog'})
 
 @app.route('/BigBlueGizmos/OnlineSalesApp/Cart', methods=['GET'])
 def get_delay_six():
-    time.sleep(4)
+    time.sleep(8)
     return jsonify({'API:': 'Cart'})
 
 @app.route('/BigBlueGizmos/OnlineSalesApp/Purchase', methods=['GET'])
 def get_delay_seven():
-    time.sleep(5)
+    time.sleep(9)
     return jsonify({'API:': 'Purchase'})
 
 @app.route('/BigBlueGizmos/OnlineSalesApp/Authenticate', methods=['GET'])
