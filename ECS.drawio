@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-14T05:34:53.217Z" agent="5.0 (Macintosh)" etag="5LZtsxqwiXwNYx8wRFRh" version="20.3.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-09-14T05:39:31.995Z" agent="5.0 (Macintosh)" etag="R22SFgLg1UuS3vFSDEC7" version="20.3.0" type="github" pages="3">
   <diagram id="OMeZVWE5jmBbQeLRW_Ae" name="Dynamic-1">
     <mxGraphModel dx="942" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -60,7 +60,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="f5m-7yX2li_sJNwSE2jV" name="Static">
-    <mxGraphModel dx="942" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1052" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -133,7 +133,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Jqzd447CRwvtq4ZsPR3l" name="dynamic-2">
-    <mxGraphModel dx="843" dy="593" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="941" dy="593" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -218,7 +218,7 @@
             <mxPoint x="510" y="590.02" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xTVCF_GFN9DbvN6X6FD_-14" value="thank you page" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" parent="1">
+        <mxCell id="xTVCF_GFN9DbvN6X6FD_-14" value="final screen" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="160" y="670" as="targetPoint" />
             <mxPoint x="500.5" y="670" as="sourcePoint" />
