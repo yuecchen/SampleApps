@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-14T05:29:05.434Z" agent="5.0 (Macintosh)" etag="v6KFvsLqSfdUdeIPW2aR" version="20.3.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-09-14T05:29:35.300Z" agent="5.0 (Macintosh)" etag="d5JsJF36BRDBUjZMcpC3" version="20.3.0" type="github" pages="3">
   <diagram id="OMeZVWE5jmBbQeLRW_Ae" name="Dynamic-1">
     <mxGraphModel dx="942" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -97,21 +97,10 @@
             <mxPoint x="-24" y="4" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IQehfHSFWcXycnDFZH4A-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IQehfHSFWcXycnDFZH4A-11" target="IQehfHSFWcXycnDFZH4A-17">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="IQehfHSFWcXycnDFZH4A-11" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;Data process&lt;br&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ submittedInfo: ComplexObject&lt;br&gt;+ Submission: Boolean&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;" vertex="1" parent="1">
+        <mxCell id="IQehfHSFWcXycnDFZH4A-11" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;Data process&lt;br&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ submittedInfo: ComplexObject&lt;br&gt;+ Submission: Boolean&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ receipt code: String&lt;br&gt;&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;" vertex="1" parent="1">
           <mxGeometry x="70" y="480" width="180" height="90" as="geometry" />
         </mxCell>
         <mxCell id="IQehfHSFWcXycnDFZH4A-12" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="IQehfHSFWcXycnDFZH4A-11">
-          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
-            <mxPoint x="-24" y="4" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="IQehfHSFWcXycnDFZH4A-17" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;Database&lt;br&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;+ &lt;br&gt;+&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;" vertex="1" parent="1">
-          <mxGeometry x="190" y="620" width="180" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="IQehfHSFWcXycnDFZH4A-18" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="IQehfHSFWcXycnDFZH4A-17">
           <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
             <mxPoint x="-24" y="4" as="offset" />
           </mxGeometry>
