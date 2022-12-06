@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-12-06T04:11:13.987Z" agent="5.0 (Macintosh)" etag="niCRv_mhLPAhqchnLJxp" version="20.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-06T04:18:42.885Z" agent="5.0 (Macintosh)" etag="zuYpYx6hIlEVwhE5JPCS" version="20.3.0" type="github" pages="2">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
-    <mxGraphModel dx="1790" dy="1412" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1627" dy="1284" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -28,13 +28,13 @@
         <mxCell id="1753" value="IAM Security Tools" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#e85642;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=1;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
           <mxGeometry x="215" y="385.5" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2OYH-s_TbSpAD_OeoPVE-1802" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1755" target="2OYH-s_TbSpAD_OeoPVE-1801">
+        <mxCell id="2OYH-s_TbSpAD_OeoPVE-1802" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="1755" target="2OYH-s_TbSpAD_OeoPVE-1801" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1755" value="IAM Access Advisor (user level)" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#f08e81;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
           <mxGeometry x="110" y="530" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2OYH-s_TbSpAD_OeoPVE-1800" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1756" target="2OYH-s_TbSpAD_OeoPVE-1799">
+        <mxCell id="2OYH-s_TbSpAD_OeoPVE-1800" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="1756" target="2OYH-s_TbSpAD_OeoPVE-1799" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1756" value="IAM Credential Report (account level)" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#f08e81;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
@@ -52,10 +52,10 @@
         <mxCell id="1764" value="IAM Policy" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#F08705;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=1;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
           <mxGeometry x="495" y="200.5" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2OYH-s_TbSpAD_OeoPVE-1781" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1765" target="2OYH-s_TbSpAD_OeoPVE-1780">
+        <mxCell id="2OYH-s_TbSpAD_OeoPVE-1781" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="1765" target="2OYH-s_TbSpAD_OeoPVE-1780" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2OYH-s_TbSpAD_OeoPVE-1783" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1765" target="2OYH-s_TbSpAD_OeoPVE-1782">
+        <mxCell id="2OYH-s_TbSpAD_OeoPVE-1783" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="1765" target="2OYH-s_TbSpAD_OeoPVE-1782" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1765" value="Content" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#f5af58;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;arcSize=7;perimeterSpacing=2;fontStyle=1" parent="1" vertex="1">
@@ -85,10 +85,10 @@
         <mxCell id="1775" value="" style="edgeStyle=none;rounded=1;jumpStyle=none;html=1;shadow=0;labelBackgroundColor=none;startArrow=none;startFill=0;jettySize=auto;orthogonalLoop=1;strokeColor=#12AAB5;strokeWidth=3;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;spacing=5;fontStyle=1;fillColor=#b0e3e6;" parent="1" source="1771" target="1774" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2OYH-s_TbSpAD_OeoPVE-1787" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="1776" target="2OYH-s_TbSpAD_OeoPVE-1786">
+        <mxCell id="2OYH-s_TbSpAD_OeoPVE-1787" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" parent="1" source="1776" target="2OYH-s_TbSpAD_OeoPVE-1786" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2OYH-s_TbSpAD_OeoPVE-1790" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="1776" target="2OYH-s_TbSpAD_OeoPVE-1789">
+        <mxCell id="2OYH-s_TbSpAD_OeoPVE-1790" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="1776" target="2OYH-s_TbSpAD_OeoPVE-1789" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1190" y="355" />
@@ -103,7 +103,7 @@
         <mxCell id="1777" value="" style="edgeStyle=none;rounded=1;jumpStyle=none;html=1;shadow=0;labelBackgroundColor=none;startArrow=none;startFill=0;jettySize=auto;orthogonalLoop=1;strokeColor=#12AAB5;strokeWidth=3;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;spacing=5;fontStyle=1;fillColor=#b0e3e6;" parent="1" source="1771" target="1776" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2OYH-s_TbSpAD_OeoPVE-1785" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="1778" target="2OYH-s_TbSpAD_OeoPVE-1784">
+        <mxCell id="2OYH-s_TbSpAD_OeoPVE-1785" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="1778" target="2OYH-s_TbSpAD_OeoPVE-1784" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="1778" value="Password policy" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#61c6ce;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
@@ -112,22 +112,22 @@
         <mxCell id="1779" value="" style="edgeStyle=none;rounded=1;jumpStyle=none;html=1;shadow=0;labelBackgroundColor=none;startArrow=none;startFill=0;jettySize=auto;orthogonalLoop=1;strokeColor=#12AAB5;strokeWidth=3;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;spacing=5;fontStyle=1;fillColor=#b0e3e6;" parent="1" source="1771" target="1778" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2OYH-s_TbSpAD_OeoPVE-1780" value="ID, Version" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=#d79b00;strokeWidth=3;fillColor=#ffe6cc;fontFamily=Helvetica;fontSize=14;align=center;spacing=5;arcSize=7;perimeterSpacing=2;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="2OYH-s_TbSpAD_OeoPVE-1780" value="ID, Version" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=#d79b00;strokeWidth=3;fillColor=#ffe6cc;fontFamily=Helvetica;fontSize=14;align=center;spacing=5;arcSize=7;perimeterSpacing=2;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="760" y="10" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2OYH-s_TbSpAD_OeoPVE-1782" value="Statement: &lt;span style=&quot;font-weight: normal;&quot;&gt;Sid, Effect, Principal, Action, Resources, Condition&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=#d79b00;strokeWidth=3;fillColor=#ffe6cc;fontFamily=Helvetica;fontSize=14;align=center;spacing=5;arcSize=7;perimeterSpacing=2;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="2OYH-s_TbSpAD_OeoPVE-1782" value="Statement: &lt;span style=&quot;font-weight: normal;&quot;&gt;Sid, Effect, Principal, Action, Resources, Condition&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=#d79b00;strokeWidth=3;fillColor=#ffe6cc;fontFamily=Helvetica;fontSize=14;align=center;spacing=5;arcSize=7;perimeterSpacing=2;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="925" y="90" width="150" height="80.5" as="geometry" />
         </mxCell>
-        <mxCell id="2OYH-s_TbSpAD_OeoPVE-1784" value="&lt;div align=&quot;left&quot;&gt;- minimum password length&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- require specific character types (upper case, lower&amp;nbsp; case, numbers, non-alphanumeric)&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- users can only change their own password&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- password expiration&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- prevent password re-use&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#61c6ce;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=left;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
+        <mxCell id="2OYH-s_TbSpAD_OeoPVE-1784" value="&lt;div align=&quot;left&quot;&gt;- minimum password length&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- require specific character types (upper case, lower&amp;nbsp; case, numbers, non-alphanumeric)&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- users can only change their own password&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- password expiration&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- prevent password re-use&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#61c6ce;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=left;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
           <mxGeometry x="1110" y="140" width="330" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="2OYH-s_TbSpAD_OeoPVE-1786" value="&lt;span style=&quot;font-weight:bold&quot;&gt;MFA = password you know + security device you own&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#61c6ce;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
+        <mxCell id="2OYH-s_TbSpAD_OeoPVE-1786" value="&lt;span style=&quot;font-weight:bold&quot;&gt;MFA = password you know + security device you own&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#61c6ce;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
           <mxGeometry x="1230" y="310" width="175" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2OYH-s_TbSpAD_OeoPVE-1789" value="&lt;div align=&quot;left&quot;&gt;Options:&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- Virtual MFA device&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;-&lt;span style=&quot;font-weight:bold&quot;&gt; Universal 2nd Factor (U2F) security Key&lt;/span&gt;&lt;p style=&quot;margin:0in;font-family:&amp;quot;Helvetica Neue&amp;quot;;font-size:9.75pt&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;- hardware key fob MFA device (3rd party)&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0in;font-family:&amp;quot;Helvetica Neue&amp;quot;;font-size:9.75pt&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;- &lt;/span&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;hardware key fob MFA device for AWS GovCloud(US)&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=14;fillColor=#61c6ce;strokeColor=none;fontColor=#FFFFFF;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=3;spacing=5;fontStyle=0;arcSize=7;align=left;" vertex="1" parent="1">
+        <mxCell id="2OYH-s_TbSpAD_OeoPVE-1789" value="&lt;div align=&quot;left&quot;&gt;Options:&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- Virtual MFA device&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;-&lt;span style=&quot;font-weight:bold&quot;&gt; Universal 2nd Factor (U2F) security Key&lt;/span&gt;&lt;p style=&quot;margin:0in;font-family:&amp;quot;Helvetica Neue&amp;quot;;font-size:9.75pt&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;- hardware key fob MFA device (3rd party)&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0in;font-family:&amp;quot;Helvetica Neue&amp;quot;;font-size:9.75pt&quot;&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;- &lt;/span&gt;&lt;span style=&quot;font-weight:bold&quot;&gt;hardware key fob MFA device for AWS GovCloud(US)&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontSize=14;fillColor=#61c6ce;strokeColor=none;fontColor=#FFFFFF;rounded=1;shadow=0;labelBackgroundColor=none;strokeWidth=3;spacing=5;fontStyle=0;arcSize=7;align=left;" parent="1" vertex="1">
           <mxGeometry x="1200" y="510" width="235" height="159.5" as="geometry" />
         </mxCell>
-        <mxCell id="2OYH-s_TbSpAD_OeoPVE-1796" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="2OYH-s_TbSpAD_OeoPVE-1793" target="2OYH-s_TbSpAD_OeoPVE-1795">
+        <mxCell id="2OYH-s_TbSpAD_OeoPVE-1796" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="2OYH-s_TbSpAD_OeoPVE-1793" target="2OYH-s_TbSpAD_OeoPVE-1795" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1080" y="670" />
@@ -135,23 +135,31 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="2OYH-s_TbSpAD_OeoPVE-1793" value="&lt;div align=&quot;center&quot;&gt;Access key&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#61c6ce;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
+        <mxCell id="2OYH-s_TbSpAD_OeoPVE-1793" value="&lt;div align=&quot;center&quot;&gt;Access key&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#61c6ce;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
           <mxGeometry x="1023.62" y="530" width="112.76" height="50.25" as="geometry" />
         </mxCell>
-        <mxCell id="2OYH-s_TbSpAD_OeoPVE-1794" value="" style="edgeStyle=none;rounded=1;jumpStyle=none;html=1;shadow=0;labelBackgroundColor=none;startArrow=none;startFill=0;jettySize=auto;orthogonalLoop=1;strokeColor=#12AAB5;strokeWidth=3;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;spacing=5;fontStyle=1;fillColor=#b0e3e6;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" target="2OYH-s_TbSpAD_OeoPVE-1793">
+        <mxCell id="2OYH-s_TbSpAD_OeoPVE-1794" value="" style="edgeStyle=none;rounded=1;jumpStyle=none;html=1;shadow=0;labelBackgroundColor=none;startArrow=none;startFill=0;jettySize=auto;orthogonalLoop=1;strokeColor=#12AAB5;strokeWidth=3;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;spacing=5;fontStyle=1;fillColor=#b0e3e6;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" parent="1" target="2OYH-s_TbSpAD_OeoPVE-1793" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="945" y="390.75" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2OYH-s_TbSpAD_OeoPVE-1795" value="&lt;div align=&quot;left&quot;&gt;- Generated by AWS console&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- do not share&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- access key ID ~= username&lt;br&gt;- secret access key ~= password&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#61c6ce;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=left;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
+        <mxCell id="2OYH-s_TbSpAD_OeoPVE-1795" value="&lt;div align=&quot;left&quot;&gt;- Generated by AWS console&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- do not share&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;- access key ID ~= username&lt;br&gt;- secret access key ~= password&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#61c6ce;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=left;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
           <mxGeometry x="910" y="716.5" width="245" height="84.75" as="geometry" />
         </mxCell>
-        <mxCell id="2OYH-s_TbSpAD_OeoPVE-1799" value="A report that list all your account’s users and the status of their various credentials" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#f08e81;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
+        <mxCell id="2OYH-s_TbSpAD_OeoPVE-1799" value="A report that list all your account’s users and the status of their various credentials" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#f08e81;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
           <mxGeometry x="20" y="140.5" width="220" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2OYH-s_TbSpAD_OeoPVE-1801" value="&lt;div align=&quot;left&quot;&gt;- Show the service permissions granted to a user and when those services were last accessed&lt;br&gt;- You can use this information to revise your policies&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#f08e81;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=left;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
+        <mxCell id="2OYH-s_TbSpAD_OeoPVE-1801" value="&lt;div align=&quot;left&quot;&gt;- Show the service permissions granted to a user and when those services were last accessed&lt;br&gt;- You can use this information to revise your policies&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#f08e81;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=left;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
           <mxGeometry x="20" y="630.5" width="330" height="70" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="72BGl3dzH6NpUKyruDtf" name="EC2">
+    <mxGraphModel dx="895" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
